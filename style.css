@@ -111,6 +111,209 @@ i {
   cursor: pointer;
 }
 
+/*************COOLLECTION **************/
+.collection {
+  padding: 5rem 6rem;
+}
+
+.collection-head {
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.collection-head span {
+  font-weight: 200;
+}
+
+.collection-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection-links-head,
+.collection-filter {
+  background-color: #0a0a0a;
+  color: #dee2e6;
+  font-size: 1.2rem;
+  font-weight: 300;
+  border: 1px solid #dee2e6;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.collection-link {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0rem;
+  gap: 4rem;
+}
+
+.collection-link a {
+  text-decoration: none;
+  color: #dee2e6;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.all {
+  background-color: #0a0a0a;
+  color: #dee2e6;
+  font-weight: 300;
+  border: 1px solid #dee2e6;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.collection-products {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.collection-product {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.collection-product div:nth-child(2),
+.second-collection-product div:nth-child(2) {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.collection-product img {
+  width: 250px;
+}
+
+.collection-product p,
+.second-collection-product p {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.collection-product span,
+.second-collection-product span {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #dee2e6;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+
+.second-collection {
+  display: flex;
+  padding-top: 5rem;
+  gap: 5rem;
+}
+
+.second-collection-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.second-collection-product img {
+  width: 250px;
+}
+
+.one img {
+  width: 500px;
+}
+
+.two img {
+  width: 410px;
+}
+
+.collection-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+}
+
+.collection-cart button {
+  color: #fff;
+  background-color: #0a0a0a;
+  border: 1px solid #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+/*************BEST COLLECTION**************/
+.best-collection {
+  padding: 10rem 6rem;
+}
+
+.best-collection img {
+  width: 500px;
+}
+
+.best-collection-head {
+  font-size: 8rem;
+  text-align: right;
+}
+
+.best-collection-head span {
+  font-weight: 300;
+  display: block;
+}
+
+.best-collection-box div:nth-child(2) {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.best-collection-box p {
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.best-collection-box span {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: #dee2e6;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.9px;
+}
+
+.collection-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-two {
+  display: flex;
+  gap: 10rem;
+}
+
+.best-collections {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16rem;
+}
+
+.three {
+  transform: translateY(-30rem);
+}
+
 /*************FOOTER **************/
 footer {
   padding: 5rem 5rem;
