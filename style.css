@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+/*********** NAVIGATION ***********/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+
+.nav-head h4 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-links a.login {
+  background-color: #fff;
+  color: #0a0a0a;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.sign-up {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+
+/************ HERO ************/
+.hero {
+  padding: 3rem 4rem;
+}
+
+.hero-head {
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+
+.hero-head span {
+  font-size: 10rem;
+  font-weight: 500;
+}
+
+.hero-head div {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+i {
+  font-size: 8rem;
+  font-weight: 300;
+}
+
+.hero-head img {
+  width: 43rem;
+  height: 10rem;
+  padding-right: 2rem;
+}
+
+.extra {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.extra p {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  width: 360px;
+  line-height: 2rem;
+  color: #dee2e6;
+  font-weight: 300;
+}
+
+.extra button {
+  background-color: #0a0a0a;
+  color: #fff;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+/*************FOOTER **************/
+footer {
+  padding: 5rem 5rem;
+  background-color: #1a1919;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  padding-right: 10rem;
+}
+
+footer h6 {
+  font-size: 1.3rem;
+}
+
+.footer-box h2 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.footer-box p {
+  font-size: 1.3rem;
+  width: 250px;
+  color: #dee2e6;
+  font-weight: 300;
+}
+
+.footer-box h6 {
+  padding-bottom: 3rem;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-box form label {
+  font-size: 1.4rem;
+  color: #dee2e6;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer-form input:focus {
+  outline: none;
+}
+
+.footer-input {
+  padding: 0.6rem;
+}
+
+.footer-submit {
+  background-color: #fff;
+  color: #0a0a0a;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.footer-links,
+.footer-links div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-links a {
+  color: #dee2e6;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
