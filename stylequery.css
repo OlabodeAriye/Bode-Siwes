@@ -145,3 +145,62 @@
     font-size: 6rem;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-head span {
+    font-size: 3.2rem;
+    padding-bottom: 1rem;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+
+  .hero-head img {
+    width: 30rem;
+  }
+
+  .best-collection-box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .best-collection-box-img img {
+    width: 85%;
+  }
+
+  .footer-links a {
+    font-size: 1.4rem;
+  }
+
+  .footer-box h6 {
+    font-size: 1.8rem;
+  }
+
+  .footer-links,
+  .footer-links div {
+    gap: 1.3rem;
+  }
+
+  .footer-box form label {
+    font-size: 1.6rem;
+  }
+
+  .footer-box h2 {
+    font-size: 2.6rem;
+  }
+
+  .collection-link a {
+    font-size: 1.15rem;
+  }
+
+  .collection-link {
+    gap: 1.2rem;
+  }
+
+  .extra p {
+    font-size: 1.2rem;
+    padding-right: 2rem;
+  }
+}
