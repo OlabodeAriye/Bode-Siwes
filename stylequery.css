@@ -204,3 +204,9 @@
     padding-right: 2rem;
   }
 }
+
+@media (max-width: 410px) {
+  .best-collection-box-img img {
+    width: 80%;
+  }
+}
