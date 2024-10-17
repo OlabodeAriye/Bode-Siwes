@@ -1,0 +1,147 @@
+@media (max-width: 1150px) {
+  .second-collection-product img {
+    width: 230px;
+  }
+
+  .one img {
+    width: 430px;
+  }
+
+  .two img {
+    width: 320px;
+  }
+
+  .best-collection-box-img {
+    width: 400px;
+  }
+
+  .best-collection-box-img img {
+    width: 85%;
+  }
+
+  .best-collections {
+    row-gap: 12rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .best-collection-head {
+    font-size: 6rem;
+  }
+
+  .second-collection {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero-head span {
+    font-size: 7rem;
+  }
+
+  .best-collection-box-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-right: 0;
+  }
+
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .mobile-close {
+    display: block;
+  }
+
+  .mobile-close img {
+    width: 2.5rem;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+  }
+
+  .nav-links {
+    position: fixed;
+    transform: translateY(-100%);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  .nav-mobile img {
+    width: 2.6rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-head span {
+    font-size: 5rem;
+  }
+
+  i {
+    font-size: 5rem;
+  }
+
+  .hero-head div {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  nav,
+  .hero,
+  .collection,
+  .best-collection {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .collection-links {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .extra {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .extra button {
+    margin-top: 2rem;
+  }
+
+  .collection-links-head,
+  .collection-filter {
+    display: none;
+  }
+
+  .collection-link {
+    gap: 2rem;
+  }
+
+  .collection-head {
+    font-size: 6rem;
+  }
+}

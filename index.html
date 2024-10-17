@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylequery.css" />
 
     <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,6 +20,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script defer src="/script.js"></script>
+
     <title>BESNARD</title>
   </head>
   <body>
@@ -27,11 +30,17 @@
         <h4>BESNARD</h4>
       </div>
       <div class="nav-links">
+        <div class="mobile-close">
+          <img class="mobile-close-img" src="/Images/close.png" alt="close" />
+        </div>
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#">Cart</a>
         <a class="login" href="#">Login</a>
         <a class="sign-up" href="#">Sign up</a>
+      </div>
+      <div class="nav-mobile">
+        <img class="nav-mobile-img" src="/Images/nav.png" alt="nav" />
       </div>
     </nav>
     <div class="hero">
@@ -154,29 +163,33 @@
     </div>
 
     <section class="best-collection">
+      <div class="best-collection-head">
+        <h6>OUR BEST <span>COLLECTION</span></h6>
+      </div>
       <div class="best-collections">
         <div class="collection-one">
           <div class="best-collection-box">
-            <img src="/Images/Suit-9.png" alt="Suit-9" />
+            <div class="best-collection-box-img">
+              <img src="/Images/Suit-9.png" alt="Suit-9" />
+            </div>
             <div>
               <p>MMidgreen sharks Suit</p>
               <span>$2000</span>
             </div>
           </div>
-          <div class="best-collection-head">
-            <h6>OUR BEST <span>COLLECTION</span></h6>
-          </div>
-        </div>
-        <div class="collection-two">
           <div class="best-collection-box">
-            <img src="/Images/Suit-11.png" alt="Suit-11" />
+            <div class="best-collection-box-img">
+              <img src="/Images/Suit-11.png" alt="Suit-11" />
+            </div>
             <div>
               <p>MMidgreen sharks Suit</p>
               <span>$2000</span>
             </div>
           </div>
           <div class="best-collection-box three">
-            <img src="/Images/Suit-10.png" alt="Suit-10" />
+            <div class="best-collection-box-img">
+              <img src="/Images/Suit-10.png" alt="Suit-10" />
+            </div>
             <div>
               <p>MMidgreen sharks Suit</p>
               <span>$2000</span>

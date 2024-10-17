@@ -14,6 +14,18 @@ body {
   background-color: #0a0a0a;
   color: #fff;
 }
+
+.nav-links.open {
+  transform: translateY(0);
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.mobile-close {
+  display: none;
+}
 /*********** NAVIGATION ***********/
 
 nav {
@@ -30,6 +42,7 @@ nav {
 
 .nav-links {
   display: flex;
+  transition: all 0.5s;
   align-items: center;
   gap: 5rem;
 }
@@ -171,6 +184,8 @@ i {
   display: flex;
   gap: 4rem;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .collection-product {
@@ -256,13 +271,18 @@ i {
   padding: 10rem 6rem;
 }
 
-.best-collection img {
+.best-collection-box-img {
   width: 500px;
+}
+
+.best-collection-box-img img {
+  width: 100%;
 }
 
 .best-collection-head {
   font-size: 8rem;
-  text-align: right;
+  text-align: center;
+  padding-bottom: 6rem;
 }
 
 .best-collection-head span {
@@ -296,22 +316,15 @@ i {
 
 .collection-one {
   display: flex;
-  justify-content: space-between;
-}
-
-.collection-two {
-  display: flex;
-  gap: 10rem;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .best-collections {
   display: flex;
   flex-direction: column;
   row-gap: 16rem;
-}
-
-.three {
-  transform: translateY(-30rem);
 }
 
 /*************FOOTER **************/
